@@ -1,0 +1,152 @@
+
+@media screen and (max-width: 1024px) {
+
+}
+
+/* topnav content */
+.topnav {
+  overflow: hidden;
+  height: auto;
+  width: 100%;
+
+}
+
+.topnav li {
+  display: inline;
+  float: left;
+}
+
+ul {
+  list-style-type: none;
+  margin: auto;
+  padding: inherit;
+  overflow: auto;
+  background: rgba(251, 231, 218, 0.81);
+  border: double;
+  position: fixed;
+  top: 0;
+  width: 15000;
+  font-family: 'Poiret One', cursive;
+}
+
+.topnav li a {
+  display: block;
+  color: rgba(159, 67, 9, 0.81);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/*.topnav li a:hover {
+  background-color: rgba(174, 79, 19, 0.61);
+}*/
+
+.topnav ul li a img { width: 50px; height: 50px; }
+
+/*background image*/
+body {
+  padding-top: 50px;
+  background-color: brown;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+  }
+
+/*header*/
+h1 {
+  width: 300;
+  border: double;
+  padding: 25px;
+  margin: 25px;
+  background-color: rgba(251, 231, 218, 0.81);
+  font-family: 'Poiret One', cursive;
+}
+
+.a {
+  background-color: rgba(251, 231, 218, 0.81);
+ }
+
+ h2 {
+   width: 100;
+   border: double;
+   padding: 25px;
+   margin: 25px;
+   background-color: rgba(251, 231, 218, 0.81);
+   font-family: 'Poiret One', cursive;
+ }
+
+.Benaiah {
+  width: 240px;
+}
+
+.projects {
+  width: 240px;
+  height: 320px;
+  display: inline-block;
+}
+
+/*media2*/
+@media (max-width: 768px) {
+  h1 {
+    width: 200px;
+    border: double;
+    padding: 16px;
+    margin: 16px;
+    background-color: rgba(251, 231, 218, 0.81);
+  }
+
+  h2 {
+    width: 70px;
+    height: 16px;
+    border: double;
+    padding: 16px;
+    margin: 16px;
+    background-color: rgba(251, 231, 218, 0.81);
+  }
+
+  .Benaiah {
+    width: 120px;
+    height: 160px;
+  }
+
+  .projects {
+    width: 160px;
+    height: 213px;
+    display: inline-block;
+  }
+
+  .topnav {
+    overflow: auto;
+    height: inherit;
+  }
+}
+
+/*media3*/
+@media (max-width: 530px) {
+  .Benaiah {
+    width: 120px;
+    height: 160px;
+  }
+
+  .projects {
+    width: 120px;
+    height: 160px;
+    display: inline-block;
+  }
+
+.topnav {
+   overflow: auto;
+   height: inherit;
+}
+
+.topnav li {
+  display: inline;
+  float: none;
+}
+
+ul {
+  width: 40px;
+}
+
+.topnav ul li a img { width: 20px; height: 20px; } }
