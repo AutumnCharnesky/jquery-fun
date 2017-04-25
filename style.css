@@ -3,6 +3,12 @@
 
 }
 
+.box {
+  border: thick:
+  height: 50px:auto;
+  width: 50px:
+}
+
 /* topnav content */
 .topnav {
   overflow: hidden;

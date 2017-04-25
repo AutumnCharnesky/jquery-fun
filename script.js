@@ -20,4 +20,9 @@ $(document).ready(function() {
     $(".topnav").click("slow", function() {
       $(this).text("Clicked!");
     })
+
+    $(".box").hidden(function() {
+      $(this).css({"backgroundColor": "rgba(159, 67, 9, 0.81)"});
+    })
+
 });
